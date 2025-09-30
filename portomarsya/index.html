@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Fotografer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <main class="main-container">
+
+        <header class="hero-section" id="hero">
+            <div class="hero-content">
+                <h1 class="animate-item">Let's Make Your Day Unforgettable</h1>
+                <p class="animate-item">Kami mengabadikan momen berharga Anda dengan sentuhan artistik dan personal, menciptakan kenangan yang akan Anda hargai selamanya.</p>
+                <a href="#about" class="btn animate-item">Lihat Karya Saya</a>
+            </div>
+            <a href="#about" class="scroll-down-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </header>
+
+        <section id="about" class="about-section content-section">
+            <div class="about-content animate-item">
+                <h2>TENTANG SAYA</h2>
+                <p>Halo, saya Ngurah! Sebagai seorang fotografer profesional dengan hasrat untuk menangkap cinta dan kebahagiaan, saya mendedikasikan diri untuk menceritakan kisah unik Anda melalui lensa kamera.</p>
+                <p>Dengan pengalaman bertahun-tahun dalam fotografi pernikahan dan acara, saya percaya bahwa setiap momen memiliki keindahannya sendiri yang layak diabadikan.</p>
+                <a href="#contact" class="btn">Info Lebih Lanjut</a>
+            </div>
+            <div class="about-image animate-item">
+                <img src="images/about.jpeg" alt="Fotografer" class="parallax-image">
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery-section content-section">
+            <div class="section-title animate-item">
+                <h2>GALERI KARYA</h2>
+                <p>Kumpulan momen indah yang telah saya abadikan.</p>
+            </div>
+            
+            <div class="gallery-filters animate-item">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="pernikahan">Pernikahan</button>
+                <button class="filter-btn" data-filter="prewedding">Pre-Wedding</button>
+                <button class="filter-btn" data-filter="lamaran">Lamaran</button>
+            </div>
+
+            <div class="gallery-grid"></div>
+
+            <div class="gallery-cta animate-item">
+                <div class="pagination-controls">
+                    <button id="prev-btn" class="btn btn-page"><i class="fas fa-arrow-left"></i> Previous</button>
+                    <span id="page-indicator">Halaman 1 / 5</span>
+                    <button id="next-btn" class="btn btn-page">Next <i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="view-all-cta">
+                    <a href="https://drive.google.com/drive/folders/1AqjNpl6thgtETWLYs7obQu0H3pgd6AMf" target="_blank" class="btn btn-secondary">
+                        <i class="fas fa-images"></i> Lihat Galeri Lengkap
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="social" class="social-media-section content-section">
+            <div class="section-title animate-item">
+                <h2>IKUTI SAYA</h2>
+                <p>Lihat karya terbaru dan proses di balik layar saya di media sosial.</p>
+            </div>
+            <div class="social-icons animate-item">
+                <a href="https://www.instagram.com/novabiasaaja" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/" target="_blank" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.tiktok.com/" target="_blank" class="social-icon">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="https://wa.me/62895368859670?text=Halo,%20saya%20tertarik%20dengan%20jasa%20fotografi%20Anda." target="_blank" class="social-icon">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section content-section">
+            <div class="section-title animate-item">
+                <h2>TESTIMONI</h2>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card animate-item">
+                    <p>"Hasil fotonya luar biasa! Setiap gambar menceritakan kisah dengan indah. Sangat profesional dan ramah. Terima kasih banyak!"</p>
+                    <span>- Sarah & Doni</span>
+                </div>
+                <div class="testimonial-card animate-item">
+                    <p>"Kami sangat puas dengan layanannya. Fotografernya sangat sabar dan bisa membuat kami merasa nyaman di depan kamera."</p>
+                    <span>- Budi & Ani</span>
+                </div>
+                 <div class="testimonial-card animate-item">
+                    <p>"Momen sekali seumur hidup kami diabadikan dengan sempurna. Tidak bisa lebih bahagia lagi dengan hasilnya. Sangat direkomendasikan!"</p>
+                    <span>- Rina & Adi</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="cta-section content-section">
+            <div class="cta-content animate-item">
+                <h2>Abadikan Momen Anda</h2>
+                <p>Jangan biarkan momen berharga berlalu begitu saja. Hubungi saya untuk diskusi lebih lanjut dan mari kita ciptakan kenangan indah bersama.</p>
+                <a href="https://wa.me/+62895368859670=Halo,%20saya%20tertarik%20dengan%20jasa%20fotografi%20Anda." target="_blank" class="btn btn-cta">
+                    <i class="fab fa-whatsapp"></i> Hubungi Saya di WhatsApp
+                </a>
+            </div>
+        </section>
+
+    </main>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
